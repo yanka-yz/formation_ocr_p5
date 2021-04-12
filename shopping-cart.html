@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Panier • Orinoco</title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/assets/@fortawesome/fontawesome-free/css/all.min.css">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li>
+				<a href="/">Accueil</a>
+			</li>
+			<li>
+				<a href="/shopping-cart">
+					<i class="fa fa-shopping-basket fa-fw"></i>Panier
+				</a>
+			</li>
+		</ul>
+	</nav>
+	<div id="shopping-cart"></div>
+	<h3>
+		Total :
+		<span id="shopping-cart-total"></span>
+	</h3>
+
+	<form id="order" method="post">
+		<div>
+			<label for="firstName">Prénom</label>
+ 			<input type="text" value="" name="firstName" id="firstName" placeholder="Prénom">
+		</div>
+		<div>
+			<label for="lastName">Nom</label>
+ 			<input type="text" value="" name="lastName" id="lastName" placeholder="Nom">
+ 		</div>
+ 		<div>
+			<label for="address">Adresse</label>
+ 			<input type="text" value="" name="address" id="address" placeholder="Adresse">
+ 		</div>
+ 		<div>
+			<label for="city">Ville</label>
+ 			<input type="text" value="" name="city" id="city" placeholder="Ville">
+ 		</div>
+ 		<div>
+			<label for="email">Email</label>
+ 			<input type="email" value="adressemail@gmail.com" name="email" id="email" placeholder="nom@email.fr">
+ 		</div>
+ 		<button>Passer commande</button>
+	</form>
+
+	<script type="text/javascript" src="/js/orinoco.js"></script>
+	<script type="text/javascript" src="/js/shopping-cart.js"></script>
+</body>
+</html>

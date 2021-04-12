@@ -1,0 +1,45 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+#catalog {
+	display: flex;
+}
+
+.catalog-product {
+	flex: 1;
+}
+
+.catalog-product .product-img {
+	width: 100%;
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+}
+
+.catalog-product h3 {
+	margin: 0;
+}
+
+#product-page {
+	margin: 1rem;
+	padding: 1rem;
+	border-radius: 1rem;
+	box-shadow: 0 0 1rem rgba(0, 0, 0, .5);
+}
+
+
+#product-page [data-product="name"] {
+	margin: 0;
+}
+
+#product-page [data-product="img"] {
+	width: 200px;
+	border-radius: 1rem;
+}
+
+.d-flex {
+	display: flex;
+}
