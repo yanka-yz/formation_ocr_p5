@@ -6,6 +6,18 @@ body {
 
 #catalog {
 	display: flex;
+	flex-direction: column;
+	
+	
+}
+
+.imageStyle{
+	width: 10em;
+	height: 10em;
+}
+
+.test {
+	/* border: 3px solid red; */
 }
 
 .catalog-product {
